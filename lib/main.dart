@@ -25,7 +25,7 @@ class _DicePageState extends State<DicePage> {
   int leftDiceNumber = 1;
   int rightDiceNumber = 1;
 
-  randomDices() {
+  void randomDices() {
     rightDiceNumber = Random().nextInt(6) + 1;
     leftDiceNumber = Random().nextInt(6) + 1;
     print('Left dice number = $leftDiceNumber');
