@@ -24,8 +24,8 @@ class DicePage extends StatefulWidget {
 class _DicePageState extends State<DicePage> {
   @override
   Widget build(BuildContext context) {
-    int leftDiceNumber = Random().nextInt(7);
-    int rightDiceNumber = Random().nextInt(7);
+    int leftDiceNumber = Random().nextInt(6) + 1;
+    int rightDiceNumber = Random().nextInt(6) + 1;
 
     return Center(
       child: Row(
