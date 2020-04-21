@@ -62,16 +62,3 @@ class _DicePageState extends State<DicePage> {
     );
   }
 }
-
-// int randomLeft() {
-//   return leftDiceNumber = Random().nextInt(6) + 1;
-// }
-// int firstLeft() {
-//   if (leftDiceNumber = null) {
-//     return randomLeft();
-//   }
-// }
-
-// int randomRigth() {
-//   return rightDiceNumber = Random().nextInt(6) + 1;
-// }
